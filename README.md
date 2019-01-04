@@ -1,4 +1,6 @@
-# webpack-starter
+# webpack-multitheme-starter
+
+Webpack starter that features support of dark and light mode for your theme.
 
 ## Setting up
 First, install dependencies.
@@ -13,17 +15,20 @@ First, install dependencies.
 
 Use the following entry points for your scripts and styles:
 - **src/js/main.js**
-- **src/scss/style.scss**
+- **src/scss/core/style.scss** • Core Scss
+- **src/scss/variants/dark/style.scss** • Dark theme specific Scss
+- **src/scss/variants/light/style.scss** • Light theme specific Scss
+
 
 **index.html** is located in the **public** folder. Imports are already set up.
 
 **src/js/App.js** contains a starter class and is instanciated by default in **main.js**.
 
-**src/scss/style.scss** already includes two files located in the **essentials** folder: **variables.scss** and **main.scss**.
+All 3 **style.scss** already includes two files located in their respective **essentials** folder: **variables.scss** and **main.scss**.
 
 ### Tips & tricks
 
-If you need to call an asset file (image, font, etc) from your scss, create a dedicated folder in **src/scss** then refer to it like if you were in the **src/scss/style.scss** file (whatever where you actually are). For example:
+If you need to call an asset file (image, font, etc) from your scss, create a dedicated folder in **src/scss/currentThemeOrWhatever** then refer to it like if you were in the **src/scss/whatever/style.scss** file (whatever where you actually are). For example:
 
     background-image: url('./images/yourImage.svg');
 
