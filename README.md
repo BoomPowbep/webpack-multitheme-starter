@@ -1,6 +1,6 @@
 # webpack-multitheme-starter
 
-Webpack starter that features support of dark and light mode for your theme.
+Webpack starter that features support of dark and light mode for your theme. If you don't need the dark & light modes, you might be interested by the following project: [webpack-starter](https://github.com/BoomPowbep/webpack-starter).
 
 ## Setting up
 First, install dependencies.
