@@ -24,7 +24,9 @@ Use the following entry points for your scripts and styles:
 
 **src/js/App.js** contains a starter class and is instanciated by default in **main.js**.
 
-All 3 **style.scss** already includes two files located in their respective **essentials** folder: **variables.scss** and **main.scss**.
+All 3 **style.scss** already include a file located in their respective **essentials** folder: **main.scss**.
+
+SCSS variables are located in **src/scss/common/variables.scss**.
 
 ### Tips & tricks
 
